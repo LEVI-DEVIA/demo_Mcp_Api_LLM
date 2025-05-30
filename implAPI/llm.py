@@ -7,9 +7,7 @@ import os
 class LLMService:
     def __init__(self):
         # Tu devras mettre tes vraies clés API ici
-        self.openai_client = openai.OpenAI(
-            api_key="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"
-        )
+        self.openai_client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         self.claude_client = Anthropic(api_key="")
         self.api_base_url = "http://localhost:8000"
 
