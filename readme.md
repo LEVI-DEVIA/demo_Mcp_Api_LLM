@@ -128,5 +128,3 @@ python implMCP/ui.py
 ## 🔮 Conclusion
 
 L'évolution vers M+M semble inévitable à mesure que les LLM deviennent centraux dans nos systèmes, mais la transition doit être planifiée selon les besoins spécifiques de chaque projet.
-
-# By LEVI
